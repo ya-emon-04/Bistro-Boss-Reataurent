@@ -76,10 +76,50 @@ const Contactus = () => {
               <hr></hr>
               </div>
 
+                {/*  */}
+              <section className="bg-[#F3F3F3] my-11  m-auto p-12 w-[100%]">
+                    <div className="flex justify-center w-full">
+                        <div className="flex w-full space-x-5">
+                            <div className="w-1/2">
+                                <h1>Name*</h1>
+                                <input type="text" className="w-full h-[40px] border-2 border-[#fff] rounded-md bg-white" placeholder="Enter your name" />
+                            </div>
+                            <div className="w-1/2">
+                                <h1>Email*</h1>
+                                <input type="email" className="w-full h-[40px] border-2 border-[#fff] rounded-md bg-white" placeholder="Enter your email" />
+                            </div>
+                        </div>
+                    </div>
 
-              {/* Contact Us Form down here */}
+                    <div className="mt-5">
+                        <h1>Phone*</h1>
+                        <input type="text" className="w-full h-[40px] border-2 border-[#fff] rounded-md bg-white" placeholder="Enter your phone number" />
+                    </div>
 
-             
+                    <div className="mt-5">
+                        <h1>Message*</h1>
+                        <textarea className="w-full h-[300px] border-2 border-[#fff] rounded-md bg-white" placeholder="Enter your message here"></textarea>
+                    </div>
+
+                    <div className="mt-9 flex items-center space-x-5">
+                        <button id="verifyBtn" className="text-gray-500 p-4 rounded-lg hover:bg-blue-600">
+                            I'm not a robot
+                        </button>
+                        <div id="verifiedText" className="text-green-500 hidden">
+                            <span className="text-xl">✔ Verified!</span>
+                        </div>
+                        <img className="h-[78px]" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/1200px-RecaptchaLogo.svg.png" alt="reCAPTCHA logo" />
+                    </div>
+
+                    <div className="mt-12 flex justify-center">
+                        <button className="flex items-center px-5 py-4 bg-gradient-to-r from-[#835D23] to-[#B58130] rounded-lg" type="button">
+                            <h1 className="text-white">Send Message</h1>
+                            <img src="/public/images/paper-plane 1.svg" alt="Send" className="ml-3" />
+                        </button>
+                    </div>
+                </section>
+
+             {/*  */}
 
             </main>
             
