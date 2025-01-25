@@ -15,16 +15,18 @@ const App = () => {
                 
                   <Link to="/" className="hover:text-[#efec36] font-bold  "> Home</Link>
                   
-                   <Link to="/contactUs" className="hover:text-[#efec36] font-bold  ">CONTACT us</Link>
+                  
                    <Link to="/ourMenu" className="hover:text-[#efec36] font-bold  ">OUR MENU</Link>
                   <div className='flex items-center gap-[15px]'> <Link to="/ourShop" className="hover:text-[#efec36] font-bold  ">OUR SHOP </Link>
                   <div><img src="/public/images/shop.png " className='w-[60px]'></img></div></div>
+                  <Link to="/contactUs" className="hover:text-[#efec36] font-bold  ">CONTACT us</Link>
                   <div className='flex items-center gap-[15px]'>
                     
                   <Link to="/" className="hover:text-[#efec36] font-bold  ">SIGN OUT</Link>
                   <div><img src="/public/images/Signout.png " className='w-[60px]'></img></div>
                   
                   </div>
+                  
                    
                    
               </div>
